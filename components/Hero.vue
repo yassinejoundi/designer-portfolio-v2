@@ -54,7 +54,7 @@
 export default {
   data() {
     return {
-      name: 'Joundi Yassine',
+      name: this.$store.state.data.name,
       socials: this.$store.state.data.socials,
     }
   },

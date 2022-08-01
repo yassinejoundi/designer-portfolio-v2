@@ -1,4 +1,5 @@
 export const state = () => ({
+  name: 'Joundi Yassine',
   socials: [
     {
       icon: 'facebook',

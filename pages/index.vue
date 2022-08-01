@@ -1,14 +1,16 @@
 <template>
   <div class="home">
     <Hero />
+    <About />
   </div>
 </template>
 
 <script>
 import Hero from '~/components/Hero'
+import About from '~/components/About'
 export default {
   name: 'IndexPage',
-  components: { Hero },
+  components: { Hero, About },
 }
 </script>
 
