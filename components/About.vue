@@ -75,19 +75,19 @@ export default {
       socials: this.$store.state.data.socials,
       skills: [
         {
-          name: 'HTML & CSS',
+          name: 'Adobe Photoshop',
           width: '85',
         },
         {
-          name: 'PYTHON',
+          name: 'Adobe Illustrator',
           width: '70',
         },
         {
-          name: 'JAVASCRIPT',
+          name: 'Sketch',
           width: '98',
         },
         {
-          name: 'FIGMA',
+          name: 'Adobe InDesign',
           width: '91',
         },
       ],
