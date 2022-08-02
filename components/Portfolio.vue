@@ -22,52 +22,6 @@
         alt="portfolio image"
       />
     </div>
-    <!--
-        <div
-          class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2"
-        >
-          <a
-            href="/"
-            class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-          >
-            <img
-              src="/assets/img/portfolio-apple.jpeg"
-              class="w-full shadow"
-              alt="portfolio image"
-            />
-          </a>
-          <a
-            href="/"
-            class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-          >
-            <img
-              src="/assets/img/portfolio-stripe.jpeg"
-              class="w-full shadow"
-              alt="portfolio image"
-            />
-          </a>
-          <a
-            href="/"
-            class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-          >
-            <img
-              src="/assets/img/portfolio-fedex.jpeg"
-              class="w-full shadow"
-              alt="portfolio image"
-            />
-          </a>
-          <a
-            href="/"
-            class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-          >
-            <img
-              src="/assets/img/portfolio-microsoft.jpeg"
-              class="w-full shadow"
-              alt="portfolio image"
-            />
-          </a>
-        </div>
-    -->
   </div>
 </template>
 

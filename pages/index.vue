@@ -4,6 +4,7 @@
     <About />
     <Services />
     <Portfolio />
+    <Statistics />
   </div>
 </template>
 
@@ -12,9 +13,10 @@ import Hero from '~/components/Hero'
 import About from '~/components/About'
 import Services from '~/components/Services'
 import Portfolio from '~/components/Portfolio'
+import Statistics from '~/components/Statistics'
 export default {
   name: 'IndexPage',
-  components: { Hero, About, Services, Portfolio },
+  components: { Hero, About, Services, Portfolio, Statistics },
 }
 </script>
 
