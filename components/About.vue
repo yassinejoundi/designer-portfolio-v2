@@ -1,5 +1,5 @@
 <template>
-  <div class="about bg-grey-50">
+  <div class="bg-grey-50" id="about">
     <div
       class="container flex flex-col items-center py-16 md:py-20 lg:flex-row"
     >

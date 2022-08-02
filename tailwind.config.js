@@ -1,12 +1,19 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
-    './components/**/*.{js,vue,ts}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
+    `components/**/*.{vue,js}`,
+    `layouts/**/*.vue`,
+    `pages/**/*.vue`,
+    `composables/**/*.{js,ts}`,
+    `plugins/**/*.{js,ts}`,
+    `App.{js,ts,vue}`,
+    `app.{js,ts,vue}`,
   ],
+  variants: {
+    extend: {
+      display: ['group-hover'],
+    },
+  },
   theme: {
     screens: {
       xs: '375px',

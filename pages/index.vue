@@ -2,15 +2,19 @@
   <div class="home">
     <Hero />
     <About />
+    <Services />
+    <Portfolio />
   </div>
 </template>
 
 <script>
 import Hero from '~/components/Hero'
 import About from '~/components/About'
+import Services from '~/components/Services'
+import Portfolio from '~/components/Portfolio'
 export default {
   name: 'IndexPage',
-  components: { Hero, About },
+  components: { Hero, About, Services, Portfolio },
 }
 </script>
 

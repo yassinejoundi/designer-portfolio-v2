@@ -1,5 +1,8 @@
 <template>
-  <div class="hero-section relative bg-cover bg-center bg-no-repeat py-8">
+  <div
+    class="hero-section relative bg-cover bg-center bg-no-repeat py-8"
+    id="hero"
+  >
     <div
       class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"
     ></div>
